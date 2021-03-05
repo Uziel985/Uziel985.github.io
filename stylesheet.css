@@ -1,0 +1,202 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color:#404146;
+    text-align: center;
+  }
+  h3 {
+    font-family: "Rockwell";
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+  li {
+    list-style: none;
+  }
+  .header, .footer {
+    font-family: "Franklin Gothic Medium";
+  }
+  .header {
+    background-color: #404146;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 30px;
+    font-weight:700;
+    letter-spacing: 10px;
+    padding: 25px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    font-size: 20px;
+  }
+  
+  .header-list a {
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .copy-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .copy-container span {
+    color: #f2d00d;
+  }
+  
+  .copy-container img {
+    height:300px;
+  }
+
+  .profil {
+    border :5px solid #666;
+    border-radius: 150px;
+    width: 300px;
+    background-color: black;
+  }
+  
+  .about { 
+    font-size: 28px;
+    height: 260px;
+    background-color: rgb(244, 244, 244);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  /*.about h3 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }*/
+  
+  .about p {
+    padding: 0px 150px;
+    font-size: 20px;
+  }
+  
+  .contents {
+    height: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .contents h3 {
+    font-size: 28px;
+  }
+  
+  .contents-item {
+    float: left;
+    width: 33.3%;
+  }
+
+  .contents-item img{
+    height: 300px;
+    border-radius: 150px;
+    border : 5px solid #666;
+    background-color: gray;
+  }
+  .contents-item p {
+    font-size: 20px;
+    font-family: "Arial";
+  }
+
+  .content {
+    width: 600px;
+    padding: 30px;
+  }
+  
+  .contact-form {
+    height: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(244, 244, 244);
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  ::placeholder {
+    font-family: "Ink Free";
+    color:#7C7D83;
+  }
+  
+  .contact-submit{
+    width: 500px;
+    background-color:#2b28f37a;
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 35px;
+  }
+  
+  .contact-form p{
+    font-size: 20px;
+    color :black;
+  }
+  
+  .footer {
+    background-color: #404146;
+    color: #fff;
+    height: 120px;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    float: left;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 25px;
+  }
+  
+  .footer-list a {
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  .footer-profil {
+    width: 120px;
+    padding-top: 10px;
+  }
+  
